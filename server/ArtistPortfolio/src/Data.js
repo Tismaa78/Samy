@@ -2,7 +2,8 @@ const Data = {
   WebsiteTitle: "Samy | Flyers",
   HeaderTitle: "Samy Flyers",
   FooterText: "© 2025 Samy Flyers.",
-  AboutPhone: "Votre numéro",
+  AboutPhone: "Samy",
+  AboutPhoneNumber: "tel:+33683738897", // Ajout du numéro de téléphone
   AboutEmailSubject: "Subject of the Email",
   AboutHeading: "Informations",
   AboutTextParagraph1:
