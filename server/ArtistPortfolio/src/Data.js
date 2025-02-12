@@ -1,15 +1,15 @@
 const Data = {
-  WebsiteTitle: "Portfolio | Artists",
-  HeaderTitle: "Artist's Portfolio",
+  WebsiteTitle: "Samy | Flyers",
+  HeaderTitle: "Samy Flyers",
   FooterText: "© 2025 Samy Flyers.",
-  AboutEmail: "Your Email Address",
+  AboutPhone: "Votre numéro",
   AboutEmailSubject: "Subject of the Email",
   AboutHeading: "Informations",
   AboutTextParagraph1:
     "30€ le flyer, livraison en 72/96 heures + 10€ livraison urgence en 24 heures.",
   AboutTextParagraph2:
-    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  AboutButtonText: "Say Hey!",
+    " PACK VISION : 1 logo + 1 filtre + 1 flyers pour 60€, livraison en 72/96 heures.  ",
+  AboutButtonText: "Contactez moi !",
 };
 
 export default Data;

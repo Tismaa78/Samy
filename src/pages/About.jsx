@@ -14,12 +14,12 @@ const profileImage = images.length > 0 ? images[0] : null;
 
 function About() {
   const handleClick = () => {
-    const email = data.AboutEmail;
-    const subject = data.AboutEmailSubject;
-    const emailLink = document.createElement("a");
-    emailLink.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
-    emailLink.click();
+    const phoneNumber = data.AboutPhone; // Remplace l'email par le numéro de téléphone
+    const phoneLink = document.createElement("a");
+    phoneLink.href = `tel:${phoneNumber.replace(/\s+/g, "")}`; // Supprime les espaces pour éviter les erreurs
+    phoneLink.click();
   };
+
 
   return (
     <div className={AboutCSS.container}>

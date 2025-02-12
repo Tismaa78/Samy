@@ -90,13 +90,12 @@ async function updateDataJs(req) {
 
   let dataFileContent = `
 const Data = {
-  WebsiteTitle: "${data.WebsiteTitle || "Portfolio | Artists"}",
-  HeaderTitle: "${data.HeaderTitle || "Artist's Portfolio"}",
+  WebsiteTitle: "${data.WebsiteTitle || "Samy"}",
+  HeaderTitle: "${data.HeaderTitle || "Samy "}",
   FooterText: "${
     data.FooterText || "© 2025 Samy Flyers."
   }",
-  AboutEmail: "${data.AboutEmail || "Your Email Address"}",
-  AboutEmailSubject: "${data.AboutEmailSubject || "Subject of the Email"}",
+  AboutPhone: "${data.AboutPhone || "+33 6 83 73 88 97"}",
   AboutHeading: "${data.AboutHeading || "Informations"}",
   AboutTextParagraph1: "${
     data.AboutTextParagraph1 || "Lorem ipsum dolor sit amet..."
@@ -104,8 +103,9 @@ const Data = {
   AboutTextParagraph2: "${
     data.AboutTextParagraph2 || "Duis aute irure dolor in reprehenderit..."
   }",
-  AboutButtonText: "${data.AboutButtonText || "Say Hey!"}",
+  AboutButtonText: "${data.AboutButtonText || "Call Now!"}",
 };
+
 
 export default Data;
 `;
