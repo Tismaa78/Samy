@@ -27,14 +27,14 @@ function Footer() {
           >
             <FaSnapchatGhost />
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/s2aa78?igsh=MWI3bWhqM21jdXZmdg=="
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#E1306C", fontSize: "24px" }}
           >
             <FaInstagram />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>
