@@ -14,11 +14,13 @@ const profileImage = images.length > 0 ? images[0] : null;
 
 function About() {
   const handleClick = () => {
-    const phoneNumber = data.AboutPhone; // Remplace l'email par le numéro de téléphone
+    const phoneNumber = "+33683738897"; // Numéro de téléphone sans espaces
     const phoneLink = document.createElement("a");
-    phoneLink.href = `tel:${phoneNumber.replace(/\s+/g, "")}`; // Supprime les espaces pour éviter les erreurs
+    phoneLink.href = `tel:${phoneNumber}`;
     phoneLink.click();
   };
+
+
 
 
 
